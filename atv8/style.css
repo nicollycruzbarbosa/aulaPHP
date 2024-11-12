@@ -1,0 +1,19 @@
+ .tabela{   
+    background-image: url(https://cdn.getcrowder.com/images/da068268-6380-4998-beb4-a75cbd2b16d5-bm1920x720rj-1-1-1.png);
+    background-color: rgb(255, 240, 127);
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content:right ;
+    position: center;
+    
+}
+
+.fundo{
+    background-color: rgba(255, 255, 255, 0.721);
+    border: black;
+    border-radius: 20px;
+}
+

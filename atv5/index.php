@@ -8,7 +8,8 @@
 <body>
     <h1>Verifique se você pode dirigir</h1>
     <form method="POST">
-        <input type="text" name="nome" placeholder= "Digite a sua idade" require>
+        <p>Digite sua idade:</p>
+        <input type="text" name="idade" placeholder= "Digite a sua idade" require>
         <button type= "submit"> Verificar</button>
 
     </form>
@@ -16,9 +17,9 @@
     
     <?php
 
-        $idade = 18;
+        $idade = $_POST["idade"];
     
-    // verificar a idade
+   
         if ($idade >= 18){
     
             echo "<p>Você pode dirigir</p>";
@@ -33,4 +34,4 @@
     ?>
 
 </body>
-</html>
+</htm
